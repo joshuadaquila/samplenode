@@ -11,7 +11,7 @@ app.use(express.json());
 
 // MySQL connection
 const pool = mysql.createPool({
-  host: '34.70.44.155',
+  host: 'barkota-1143:us-central1:barkota-db-testing',
   user: 'barkotafaq',
   password: 'vmJKx0teRd',
   database: 'barkotafaq',
