@@ -10,7 +10,7 @@ app.use(express.json());
 
 // MySQL connection using Unix socket
 const pool = mysql.createPool({
-  socketPath: 'barkota-1143:us-central1:barkota-db-testing',
+  socketPath: '/cloudsql/barkota-1143:us-central1:barkota-db-testing', // Correct format
   user: 'barkotafaq',
   password: 'vmJKx0teRd',
   database: 'barkotafaq'
