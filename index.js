@@ -15,7 +15,7 @@ const pool = mysql.createPool({
   user: 'barkotafaq',
   password: 'vmJKx0teRd',
   database: 'barkotafaq',
-  port: 3306
+  port: 3307
 });
 
 // Example endpoint
